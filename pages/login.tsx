@@ -15,6 +15,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Copyright from '../components/utils/Copyright/';
 // @mui/material
 import Snackbar from '../components/Snackbar';
+import styles from '../styles/Home.module.css'
 import Login from '../components/Form/Login';
 // Arquivo a parte (Alert)
 const Alert = React.forwardRef<HTMLDivElement, AlertProps>(function Alert(
@@ -74,21 +75,23 @@ export default function LoginPage() {
 
     return (
         <ThemeProvider theme={theme}>
-            <Container component='main' maxWidth='xs'>
-                <CssBaseline />
+            <div className={styles.container}>
+                <Container component='main' maxWidth='xs'>
+                    <CssBaseline />
 
-                {/* Arquivo a parte (Stack) */}
-                {/* A linha que ficará no lugar será: 
+                    {/* Arquivo a parte (Stack) */}
+                    {/* A linha que ficará no lugar será: 
                 <Snackbar open={open} duration={6} message={'Usuário logado com sucesso! ...Aguarde...'}>
                 */}
 
-                {/* <button onClick={() => setContador(contador + 1)}>Contador + 1</button>
+                    {/* <button onClick={() => setContador(contador + 1)}>Contador + 1</button>
                 Contador: {contador}. */}
 
-                {/* Login.tsx */}
-                <Login />
-                <Copyright site='avanade' />
+                    {/* Login.tsx */}
+                    <Login />
+                    <Copyright site='avanade' />
                 </Container>
+            </div>
         </ThemeProvider>
     )
 }
