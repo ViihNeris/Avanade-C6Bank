@@ -9,6 +9,7 @@ A Tela de Login solicita o e-mail e a senha do usuário com requisitos mínimos.
 ![image](https://user-images.githubusercontent.com/93789218/197047496-124db529-876b-4294-936b-2c2a26da31be.png)
 
 <br />
+
 ### Tela de Gerenciamento de Dados 🎲
 Abaixo está a tela de gerenciamento de dados, com uma SideBar contendo área para Perfil e Menu. Além disso, há uma tabela de informações listando detalhadamente os gastos do usuário, com data e descrição dos mesmos.
 
