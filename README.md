@@ -1,34 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto inspirado no C6Bank 🔵🟡⚫
+Com uma paleta de cores divergente, esse projeto foi inspirado no C6Bank e em uma de suas telas de gerenciamento de dados. Acompanhe abaixo as telas desenvolvidas!
+<br /><br />
+### Tela de Login 👤
+A Tela de Login solicita o e-mail e a senha do usuário com requisitos mínimos. Se a ação for bem sucedida, o usuário recebe a informação que está logado e lhe será permido clicar na URL que o direcionára para a Home.
 
-## Getting Started
+![image](https://user-images.githubusercontent.com/93789218/197046920-9d63023d-414c-496b-8819-3451599457ed.png)
 
-First, run the development server:
+![image](https://user-images.githubusercontent.com/93789218/197047496-124db529-876b-4294-936b-2c2a26da31be.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<br />
+### Tela de Gerenciamento de Dados 🎲
+Abaixo está a tela de gerenciamento de dados, com uma SideBar contendo área para Perfil e Menu. Além disso, há uma tabela de informações listando detalhadamente os gastos do usuário, com data e descrição dos mesmos.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![image](https://user-images.githubusercontent.com/93789218/197046810-81487edd-7396-4e84-97f4-3ed3c60f07e8.png)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<br /><br />
+## Teste você mesmo 🙆🏻‍♀️💻
+Acesse o link  a seguir para testar o projeto! https://avanade-c6bank-two.vercel.app/login 👈🏻💜👩🏻‍💻
+<br /><br />
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Conhecimentos Aplicados 📚
+- Components;
+- Styles;
+- MUI;
+- Router;
+- Functions;
+- Props;
+- Types;
+- Library;
+- SVG;
+- Settings React/Next.
