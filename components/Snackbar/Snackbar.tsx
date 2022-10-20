@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Stack, Snackbar as Container, AlertColor } from '@mui/material';
 import Alert from '../utils/Alert';
+import { color } from '@mui/system';
 // as = apelido, qualquer um
 
 // enum SeverityColor{
@@ -28,7 +29,7 @@ export default function Snackbar(props: SnackbarProps) {
     <Stack>
       <Container open={open} autoHideDuration={props.hide * 1000} onClose={handleClose}>
         <Alert onClose={handleClose} severity={props.severity ? props.severity : 'success'} sx={{ width: '100%' }}>
-          {props.message}
+          {props.message} <a href="/" style={{color: '#b9ebd8'}}>Clique aqui para acessar a Home: www.c6bankViih.com</a>
         </Alert>
       </Container>
     </Stack>

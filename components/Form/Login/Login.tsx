@@ -76,7 +76,7 @@ export default function Login() {
                 />
                 <Button type='submit' fullWidth variant='contained' sx={{ mt: 3, mb: 2 }}>Login</Button>
                 {error && <Typography color='error'>{errorMessage}</Typography>}
-                {open && <Snackbar open={open} hide={5} message={'Usuário logado. Por favor, aguarde...'} severity='success' />}
+                {open && <Snackbar open={open} hide={5} message={'Usuário logado! '} severity='success' />}
             </Box>
         </Box>
     )

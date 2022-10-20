@@ -17,8 +17,8 @@ const ExtractContentContainer = styled.div`
 export default function ExtractContent() {
     return (
         <ExtractContentContainer>
-            <ExtractHeader />
-            <ExtractTotal />
+            {/* <ExtractHeader /> */}
+            {/* <ExtractTotal /> */}
             <ExtractData db={db} />
             <ExtractTotal />
         </ExtractContentContainer>

@@ -14,8 +14,8 @@ import MuiAlert, { AlertProps } from '@mui/material/Alert';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Copyright from '../components/utils/Copyright/';
 // @mui/material
-import Snackbar from '../components/utils/Snackbar/';
-import Login from '../components/utils/Form/Login'
+import Snackbar from '../components/Snackbar';
+import Login from '../components/Form/Login';
 // Arquivo a parte (Alert)
 const Alert = React.forwardRef<HTMLDivElement, AlertProps>(function Alert(
     props,
