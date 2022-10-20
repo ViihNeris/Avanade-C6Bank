@@ -15,7 +15,7 @@ const ExtractTotalContainer = styled.div`
 export default function ExtractTotal() {
   return (
     <ExtractTotalContainer>
-      <Button color='inherit' sx={{ background: "#e2f4f6", width: 200, pt: 1, pb: 1, fontSize: 20 }} href="/login">Ir para o Login</Button>
+      <Button color='inherit' sx={{ background: "#e2f4f6", width: 200, pt: 1, pb: 1, fontSize: 20 }} href="/login">Sair</Button>
     </ExtractTotalContainer>
   )
 }
