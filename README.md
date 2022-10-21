@@ -2,7 +2,7 @@
 Com uma paleta de cores divergente, esse projeto foi inspirado no C6Bank e em uma de suas telas de gerenciamento de dados. Acompanhe abaixo as telas desenvolvidas!
 <br /><br />
 ### Tela de Login 👤
-A Tela de Login solicita o e-mail e a senha do usuário com requisitos mínimos. Se a ação for bem sucedida, o usuário recebe a informação que está logado e lhe será permido clicar na URL que o direcionára para a Home.
+A Tela de Login solicita o e-mail e a senha do usuário com requisitos mínimos. Se a ação for bem sucedida, o usuário recebe a informação que está logado e lhe será permido clicar na URL que o direcionará para a Home.
 
 ![image](https://user-images.githubusercontent.com/93789218/197046920-9d63023d-414c-496b-8819-3451599457ed.png)
 
