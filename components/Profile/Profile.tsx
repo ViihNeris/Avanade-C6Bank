@@ -31,6 +31,7 @@ const Account = styled.div`
   border-radius: 2px;
   margin-bottom: 5%;
   margin-top: 5%;
+  margin-right: 5%;
   div:first-child {
     width: 80%;
     padding-left: 20px;
@@ -63,12 +64,7 @@ export default function Profile(props: ProfileProps) {
           <p>234 - Banco GitBank S.A.</p>
           <p>Ag: 001 C/C: 123456</p>
         </div>
-        <Image
-          src={require("../../src/gitbank-logo.png")}
-          style={{ maxWidth: "85%", minHeight: "76%", padding: "10px" }}
-          sizes="80%"
-          height={1}
-        />
+        <Image src={require("../../src/gitbank-logo.png")} height={1} />
       </Account>
     </ProfileContainer>
   );
