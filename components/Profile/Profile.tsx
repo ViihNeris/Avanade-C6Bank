@@ -59,13 +59,13 @@ export default function Profile(props: ProfileProps) {
       <h2>{props.name}</h2>
       <h3>{props.role}</h3>
       <Account>
-        <div>
+        <div style={{ width: "62%" }}>
           <p>234 - Banco GitBank S.A.</p>
           <p>Ag: 001 C/C: 123456</p>
         </div>
         <Image
           src={require("../../src/gitbank-logo.png")}
-          width="100%"
+          style={{ maxWidth: "85%" }}
           height={1}
         />
       </Account>

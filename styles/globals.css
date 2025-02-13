@@ -15,19 +15,9 @@ a {
   box-sizing: border-box;
 }
 
-body{
+body {
   background: url('../src/backgroundForm-Next.webp') no-repeat;
   background-size: cover;
   background-color: rgba(4, 4, 72, 0.425);
   background-blend-mode: multiply;
 }
-
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-} */
