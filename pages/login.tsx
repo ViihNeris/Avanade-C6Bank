@@ -1,9 +1,8 @@
-import React, { useEffect, useState, FormEvent } from "react";
+import React, { useState } from "react";
 import { Container, CssBaseline } from "@mui/material";
 import MuiAlert, { AlertProps } from "@mui/material/Alert";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Copyright from "../components/utils/Copyright/";
-import Snackbar from "../components/Snackbar";
 import styles from "../styles/Home.module.css";
 import Login from "../components/Form/Login";
 
