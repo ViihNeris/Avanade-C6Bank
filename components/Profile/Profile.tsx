@@ -65,7 +65,7 @@ export default function Profile(props: ProfileProps) {
         </div>
         <Image
           src={require("../../src/gitbank-logo.png")}
-          style={{ maxWidth: "85%", minHeight: "76%", padding: "0 12px" }}
+          style={{ maxWidth: "85%", minHeight: "76%", padding: "10px" }}
           height={1}
         />
       </Account>
