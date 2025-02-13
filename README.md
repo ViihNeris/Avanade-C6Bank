@@ -22,7 +22,7 @@ Abaixo está a tela de gerenciamento de dados, com uma SideBar contendo área pa
 
 ## Teste você mesmo 🙆🏻‍♀️💻
 
-Acesse o link a seguir para testar o projeto! https://gitbank.vercel.app 👈🏻💜👩🏻‍💻
+Acesse o link a seguir para testar o projeto! https://gitbank.vercel.app/login 👈🏻💜👩🏻‍💻
 <br /><br />
 
 ## Conhecimentos Aplicados 📚
