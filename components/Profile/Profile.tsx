@@ -64,7 +64,7 @@ export default function Profile(props: ProfileProps) {
           <p>Ag: 001 C/C: 123456</p>
         </div>
         <Image
-          src={require("../../src/gitbank-logo.webp")}
+          src={require("../../src/gitbank-logo.png")}
           width="100%"
           height={1}
         />
