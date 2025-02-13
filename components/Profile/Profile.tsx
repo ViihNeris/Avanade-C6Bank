@@ -31,9 +31,8 @@ const Account = styled.div`
   border-radius: 2px;
   margin-bottom: 5%;
   margin-top: 5%;
-  margin-right: 5%;
   div:first-child {
-    width: 80%;
+    min-width: 62%;
     padding-left: 20px;
     & > div {
       width: 100%;
@@ -60,7 +59,7 @@ export default function Profile(props: ProfileProps) {
       <h2>{props.name}</h2>
       <h3>{props.role}</h3>
       <Account>
-        <div style={{ minWidth: "62%", paddingLeft: "20px" }}>
+        <div>
           <p>234 - Banco GitBank S.A.</p>
           <p>Ag: 001 C/C: 123456</p>
         </div>
